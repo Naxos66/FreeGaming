@@ -1,0 +1,70 @@
+.sectionDesc {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.titreGaming {
+  text-align: center;
+}
+
+.imagedesc {
+  height: 400px;
+  width: 400px;
+}
+
+.description {
+  margin-top: 25px;
+  width: 350px;
+  height: 400px;
+  padding: 20px;
+  padding: 10px;
+  font-size: 1.3em;
+  font-family: Montserrat;
+}
+
+.sectionCard {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.card {
+  background-color: white ;
+  width: 450px;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card h1 {
+  text-align: center;
+}
+.card p {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Montserrat;
+}
+
+.imageCard {
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: contain;
+}
+
+.detail {
+  color: #CC0000;
+}
+
+.detail::after {
+  content: "+";
+  display: inline-block;
+  margin-left: 5px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.detail:hover::after {
+  opacity: 1;
+}
